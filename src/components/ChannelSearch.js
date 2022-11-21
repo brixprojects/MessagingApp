@@ -1,6 +1,6 @@
 import React, { useState, useEffect} from 'react';
 import { useChatContext } from 'stream-chat-react';
-import { SearchIcon, searchIcon } from '../assets';
+import { SearchIcon } from '../assets';
 
 
 const ChannelSearch = () => {
@@ -30,7 +30,7 @@ const ChannelSearch = () => {
                 <SearchIcon />
             </div>
             <input className="channel-search__input__text" 
-            placeholder="search" 
+            placeholder="Search" 
             type="text"
             value={query}
             onChange={onSearch}

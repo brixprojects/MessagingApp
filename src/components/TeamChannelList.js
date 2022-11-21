@@ -17,7 +17,7 @@ const TeamChannelList = ({ children, error = false, loading, type }) => {
         return (
             <div className="team-channel-list">
                 <p className="team-channel-list__loading">
-                    {type === 'team' ? 'channels' : 'Messages'} loading...
+                    {type === 'team' ? 'Channels' : 'Messages'} loading...
                 </p>
             </div>
         )
